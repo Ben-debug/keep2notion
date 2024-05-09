@@ -55,6 +55,3 @@ jobs:
           git add .
           git commit -m 'add new heatmap' || echo "nothing to commit"
           git push || echo "nothing to push"
-      # - name: udpate heatmap 
-      #   run: |
-      #       python -u scripts/update_heatmap.py
